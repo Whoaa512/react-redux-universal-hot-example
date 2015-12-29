@@ -1,5 +1,5 @@
-import React, {Component} from 'react'
-import DocumentMeta from 'react-document-meta'
+import React, { Component } from 'react'
+import Helmet from 'react-helmet'
 import { MiniInfoBar } from 'components'
 
 export default class About extends Component {
@@ -16,7 +16,7 @@ export default class About extends Component {
     return (
       <div className='container'>
         <h1>About Us</h1>
-        <DocumentMeta title='React Redux Example: About Us'/>
+        <Helmet title='About Us'/>
 
         <p>This project was orginally created by Erik Rasmussen
           (<a href='https://twitter.com/erikras' target='_blank'>@erikras</a>), but has since seen many contributions

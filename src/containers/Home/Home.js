@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Helmet from 'react-helmet'
 import { Link } from 'react-router'
 import { CounterButton, GithubButton } from 'components'
 
@@ -9,6 +10,7 @@ export default class Home extends Component {
     const logoImage = require('./logo.png')
     return (
       <div className={styles.home}>
+        <Helmet title='Home'/>
         <div className={styles.masthead}>
           <div className='container'>
             <div className={styles.logo}>
