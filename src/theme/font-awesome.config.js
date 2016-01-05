@@ -8,6 +8,7 @@
 
 module.exports = {
   styles: {
+    animated: true,
     mixins: true,
     core: true,
     icons: true,
